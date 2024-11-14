@@ -1,0 +1,62 @@
+body{
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5a2;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    max-width: 1160px;
+    max-height: 600px;
+}
+.botao{
+    position: relative;
+    width: 100px;
+    height: auto;
+    border: none;
+    background-color: wheat;
+    border-radius: 10px;
+}
+div{
+    display: grid;
+    place-items: center;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#ultimobotao{
+    width: 150px;
+    height: 25px;
+    display: none;
+    place-items: center;
+    border: none;
+    color: black;
+    background-color: #6cacc5a2 ;
+    border-radius: 15px;
+}
+#ultimobotao:hover{
+    background-color: #5690a7a2;
+    scale: 1.1;
+}
+.botao1{
+    width: 150px;
+    height: 25px;
+    display: none;
+    place-items: center;
+    border: none;
+    color: black;
+    background-color: #6cacc5a2 ;
+    border-radius: 15px;
+    display: none;
+}
+.botao1:hover{
+    background-color: #5690a7a2;
+    scale: 1.1;
+}
